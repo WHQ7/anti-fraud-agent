@@ -1,0 +1,56 @@
+[
+  {
+    "id": "K01", "title": "钓鱼信息与身份核实", "category": "钓鱼通知",
+    "keywords": ["短信", "邮件", "链接", "账号", "账户", "认证", "冻结", "停用", "验证码", "密码", "登录"],
+    "content": "意外收到的邮件、短信可能以账户或付款异常为由要求点击链接、补充认证资料。不能只凭名称或标志确认发送者身份。可通过自己已知的应用或独立查到的联系方式核实，而不是直接使用消息提供的入口。",
+    "source_title": "FTC — How To Recognize and Avoid Phishing Scams",
+    "source_url": "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams",
+    "source_scope": "美国消费者教育资料；仅借鉴通用风险模式，不替代中国本地处置流程。",
+    "reviewed_at": "2026-10-20", "kind": "公开资料的中文学习摘要，非原文引用"
+  },
+  {
+    "id": "K02", "title": "招聘前置收费与虚假工作机会", "category": "求职风险",
+    "keywords": ["招聘", "入职", "面试", "实习", "兼职", "培训费", "保证金", "押金", "工作", "录用", "高薪", "赚钱"],
+    "content": "求职信息可能承诺轻松高收入，却要求先交培训、设备或资格费用。应独立核实公司、岗位和联系人，不要把求职前置付款当成录用保障。没有搜到投诉也不能证明招聘者可信。",
+    "source_title": "FTC — Job Scams",
+    "source_url": "https://consumer.ftc.gov/articles/job-scams",
+    "source_scope": "美国消费者教育资料；不是对具体公司的事实认定或中国法律意见。",
+    "reviewed_at": "2026-10-20", "kind": "公开资料的中文学习摘要，非原文引用"
+  },
+  {
+    "id": "K03", "title": "退款、追款前置收费", "category": "退款风险",
+    "keywords": ["退款", "追回", "追款", "赔付", "赔偿", "退款客服", "解冻费", "手续费", "到账", "损失"],
+    "content": "有人可能声称能追回损失或办理退款，随后索取前置费用或个人金融信息。应独立核实其身份和办理渠道，谨慎对待先交费用才能退款或追回资金的要求，不把追回承诺当作保证。",
+    "source_title": "FTC — Refund and Recovery Scams",
+    "source_url": "https://consumer.ftc.gov/articles/refund-and-recovery-scams",
+    "source_scope": "通用风险教育；本应用不提供追款、退款代办或资金操作。",
+    "reviewed_at": "2026-10-20", "kind": "公开资料的中文学习摘要，非原文引用"
+  },
+  {
+    "id": "K04", "title": "冒充机构与限时施压", "category": "身份冒充",
+    "keywords": ["公安", "法院", "警察", "客服", "老师", "老板", "官方", "立即", "马上", "限时", "转账", "安全账户", "保密", "冻结"],
+    "content": "常见风险模式包括冒充熟悉机构、声称出现问题或中奖、催促立即行动、指定付款方式。来电显示和自称身份都可能不真实。保留核实时间，通过独立可信渠道联系，不把对方给出的号码当作独立证据。",
+    "source_title": "FTC — How To Avoid a Scam",
+    "source_url": "https://consumer.ftc.gov/articles/how-avoid-scam",
+    "source_scope": "国际通用风险模式摘要；不移植美国举报号码或司法流程。",
+    "reviewed_at": "2026-10-20", "kind": "公开资料的中文学习摘要，非原文引用"
+  },
+  {
+    "id": "K05", "title": "分析器自己的安全边界", "category": "系统边界",
+    "keywords": ["忽略", "指令", "规则", "提示词", "system", "prompt", "安全", "无风险", "工具", "泄露"],
+    "content": "待分析消息中的指令、链接和要求不属于本工具的可信操作指令。分析器只运行白名单内的本地工具，不访问可疑网址，不执行消息里的代码，也不发送密钥。提示词隔离不能保证彻底消除提示注入，必须保留工具权限与输出校验。",
+    "source_title": "OWASP — LLM01:2025 Prompt Injection",
+    "source_url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "source_scope": "本项目的工程防护说明，不是判断用户消息诈骗与否的直接证据。",
+    "reviewed_at": "2026-10-20", "kind": "工程资料摘要"
+  },
+  {
+    "id": "K06", "title": "用户提供网址的访问边界", "category": "网址分析边界",
+    "keywords": ["网址", "域名", "http", "https", "localhost", "IP", "链接", "网站", "端口"],
+    "content": "服务器直接请求用户提供的网址可能触达内网或本机资源。本项目不提供网页抓取、DNS 查询、重定向展开或下载工具，只解析字符串特征。网址异常结构不能证明恶意；没有异常或使用 HTTPS 也不能证明安全。",
+    "source_title": "OWASP — Server Side Request Forgery Prevention Cheat Sheet",
+    "source_url": "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
+    "source_scope": "本项目的工程防护说明，不是网站信誉或恶意样本情报。",
+    "reviewed_at": "2026-10-20", "kind": "工程资料摘要"
+  }
+]

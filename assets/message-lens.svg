@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="290" viewBox="0 0 560 290" role="img" aria-label="消息线索核验示意">
+<rect x="28" y="18" width="502" height="254" rx="46" fill="#e5f0ea"/>
+<path d="M60 214h436M88 52v183M474 52v183" stroke="#d3e4da" stroke-width="1.5"/>
+<rect x="76" y="55" width="310" height="144" rx="22" fill="#fff" stroke="#c1d9cd" stroke-width="2"/>
+<path d="m107 197-9 27 51-25" fill="#fff" stroke="#c1d9cd" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="105" cy="83" r="8" fill="#6c9987"/><rect x="125" y="77" width="77" height="10" rx="5" fill="#8dafa0"/>
+<rect x="101" y="109" width="255" height="10" rx="5" fill="#e1eae5"/>
+<rect x="100" y="131" width="140" height="22" rx="5" fill="#f6dfd8"/>
+<rect x="109" y="138" width="122" height="8" rx="4" fill="#b96450"/>
+<rect x="252" y="137" width="77" height="9" rx="4" fill="#e1eae5"/>
+<rect x="101" y="168" width="195" height="9" rx="4" fill="#e1eae5"/>
+<circle cx="369" cy="165" r="62" fill="#fff" fill-opacity=".93" stroke="#166454" stroke-width="9"/>
+<circle cx="369" cy="165" r="46" fill="#edf5ef"/>
+<path d="m415 211 42 42" stroke="#166454" stroke-width="19" stroke-linecap="round"/>
+<rect x="339" y="145" width="60" height="14" rx="5" fill="#f2d5ca"/>
+<path d="M343 152h52M344 175h41M344 185h29" stroke="#9b5f4d" stroke-width="4" stroke-linecap="round"/>
+<circle cx="450" cy="79" r="24" fill="#fff"/>
+<path d="M450 66v16" stroke="#a36434" stroke-width="4" stroke-linecap="round"/><circle cx="450" cy="90" r="2.5" fill="#a36434"/>
+<text x="80" y="257" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="12" fill="#4d6e5e">关注要求，核对证据，独立确认</text>
+</svg>

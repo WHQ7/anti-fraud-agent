@@ -1,0 +1,40 @@
+[server]
+address = "127.0.0.1"
+maxUploadSize = 1
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+# Refined original console. Native theme; no external font requests.
+[theme]
+base = "light"
+primaryColor = "#4055B5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6FB"
+textColor = "#26334A"
+linkColor = "#4055B5"
+borderColor = "#E0E5EF"
+codeBackgroundColor = "#F4F6FB"
+dataframeHeaderBackgroundColor = "#F0F3FA"
+dataframeHeaderTextColor = "#36435D"
+chartCategoricalColors = ["#4055B5", "#BD4B55", "#A77921", "#4E8A79"]
+baseRadius = "8px"
+buttonRadius = "6px"
+showWidgetBorder = true
+showSidebarBorder = true
+font = "sans-serif"
+headingFontSizes = ["28px", "23px", "18px", "17px", "16px", "14px"]
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+paddingTop = "1.5rem"
+paddingBottom = "2rem"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EFF2FA"
+textColor = "#36435D"
+borderColor = "#E0E5EF"
+primaryColor = "#4055B5"
+paddingTop = "1rem"
